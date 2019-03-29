@@ -1,0 +1,60 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#logo {
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  display: flex;
+  height: 180px;
+  img {
+    margin: auto;
+    width: 400px;
+  }
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+
+  a {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    .desc {
+      margin: auto;
+      width: 50%;
+    }
+  }
+
+  #information {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("/background/info-bg.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  #registration {
+    background: linear-gradient(rgba(226, 164, 164, 0.2), rgba(0, 0, 0, 0.2)),
+      url("/background/regis-bg.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  // #information:hover {
+  //   background: navy;
+  //   cursor: pointer;
+  // }
+
+  // #registration:hover {
+  //   background: navy;
+  //   cursor: pointer;
+  // }
+}

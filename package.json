@@ -1,0 +1,25 @@
+{
+  "name": "rimbahana-front-end",
+  "version": "1.0.0",
+  "description": "rimbahana front end",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilhamksyuriadi/Rimbahana-Front-End.git"
+  },
+  "author": "ilhamksyuriadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilhamksyuriadi/Rimbahana-Front-End/issues"
+  },
+  "homepage": "https://github.com/ilhamksyuriadi/Rimbahana-Front-End#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10"
+  }
+}
