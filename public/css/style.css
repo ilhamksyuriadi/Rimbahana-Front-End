@@ -7,16 +7,18 @@ body {
   position: absolute;
   left: 30%;
   right: 30%;
+  top: 0;
   display: flex;
   height: 180px; }
   #logo img {
     margin: auto;
-    width: 400px; }
+    width: 350px; }
 
 .wrapper {
   height: 100vh;
   width: 100vw;
-  display: flex; }
+  display: flex;
+  font-family: "Roboto", sans-serif; }
   .wrapper a {
     height: 100vh;
     width: 50%;
@@ -26,7 +28,28 @@ body {
     justify-content: center; }
     .wrapper a .desc {
       margin: auto;
-      width: 50%; }
+      width: 70%;
+      height: 230px;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      .wrapper a .desc h3 {
+        text-align: center;
+        font-size: 1.9em;
+        font-weight: 50;
+        transition: 1s; }
+      .wrapper a .desc p {
+        font-size: 1.2em;
+        text-align: center;
+        transition-duration: 1s;
+        opacity: 0; }
+  .wrapper a:hover {
+    cursor: pointer; }
+  .wrapper a:hover h3 {
+    font-size: 2em; }
+  .wrapper a:hover p {
+    opacity: 1; }
   .wrapper #information {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/background/info-bg.jpg");
     background-size: cover;
