@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ilhamksyuriadi/Rimbahana-Front-End#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "node-sass": "^4.11.0",
