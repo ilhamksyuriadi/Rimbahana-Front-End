@@ -1,0 +1,21 @@
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  display: flex;
+  width: 100%;
+  background: #363636;
+  color: #c18e38;
+  align-items: center; }
+  header nav {
+    display: flex; }
+    header nav ul {
+      display: flex; }
+      header nav ul li {
+        list-style: none; }
+        header nav ul li a {
+          color: #c18e38;
+          text-decoration: none;
+          padding: 0 20px; }

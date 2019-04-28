@@ -1,0 +1,27 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  background: #363636;
+  color: #c18e38;
+  align-items: center;
+  nav {
+    display: flex;
+    ul {
+      display: flex;
+      li {
+        list-style: none;
+        a {
+          color: #c18e38;
+          text-decoration: none;
+          padding: 0 20px;
+        }
+      }
+    }
+  }
+}
