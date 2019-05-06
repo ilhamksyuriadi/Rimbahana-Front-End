@@ -65,3 +65,13 @@ header {
   text-align: center;
   margin: 30px 0px;
   font-size: 2em; }
+
+.content section.all-mountain {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: wheat; }
+  .content section.all-mountain .mountain {
+    width: 30%;
+    background: aqua; }
