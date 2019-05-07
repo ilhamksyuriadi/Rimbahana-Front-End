@@ -70,8 +70,12 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background: wheat;
   margin: 0 3%; }
   .content section.all-mountain .mountain {
     width: 30%;
-    background: aqua; }
+    display: flex;
+    flex-direction: column; }
+    .content section.all-mountain .mountain img {
+      width: 350px;
+      border-radius: 10%;
+      margin: auto; }

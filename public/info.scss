@@ -85,11 +85,16 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: wheat;
     margin: 0 3%;
     .mountain {
       width: 30%;
-      background: aqua;
+      display: flex;
+      flex-direction: column;
+      img {
+        width: 350px;
+        border-radius: 10%;
+        margin: auto;
+      }
     }
   }
 }
