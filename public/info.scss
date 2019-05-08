@@ -89,15 +89,24 @@ header {
     .mountain {
       width: 30%;
       display: flex;
-      padding-bottom: 20px;
+      padding-bottom: 50px;
       flex-direction: column;
+      color: #363636;
       .image-border {
         width: 350px;
         height: 200px;
         background: wheat;
         margin: auto;
         border-radius: 20px;
-        box-shadow: 6px 6px 8px 2px #707070;
+        box-shadow: 4px 4px 8px 2px #707070;
+      }
+      h2 {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+        font-size: 1.2em;
+        margin: 0;
       }
       // img {
       //   width: 350px;
