@@ -74,7 +74,13 @@ header {
   .content section.all-mountain .mountain {
     width: 30%;
     display: flex;
+    padding-bottom: 20px;
     flex-direction: column; }
+    .content section.all-mountain .mountain .image-border {
+      width: 350px;
+      height: 200px;
+      background: wheat;
+      margin: auto; }
     .content section.all-mountain .mountain img {
       width: 350px;
       border-radius: 10%;

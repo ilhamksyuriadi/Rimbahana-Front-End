@@ -89,7 +89,14 @@ header {
     .mountain {
       width: 30%;
       display: flex;
+      padding-bottom: 20px;
       flex-direction: column;
+      .image-border {
+        width: 350px;
+        height: 200px;
+        background: wheat;
+        margin: auto;
+      }
       img {
         width: 350px;
         border-radius: 10%;
