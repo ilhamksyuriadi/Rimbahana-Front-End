@@ -72,9 +72,10 @@ header {
   justify-content: space-around;
   margin: 0 3%; }
   .content section.all-mountain .mountain {
+    overflow: hidden;
     width: 30%;
     display: flex;
-    padding-bottom: 50px;
+    padding: 0 10px 50px 10px;
     flex-direction: column;
     color: #363636; }
     .content section.all-mountain .mountain .image-border {
@@ -83,7 +84,11 @@ header {
       background: wheat;
       margin: auto;
       border-radius: 20px;
-      box-shadow: 4px 4px 8px 2px #707070; }
+      box-shadow: 4px 4px 8px 2px #707070;
+      overflow: hidden; }
+      .content section.all-mountain .mountain .image-border img {
+        width: auto;
+        max-width: 100%; }
     .content section.all-mountain .mountain h2 {
       text-align: center; }
     .content section.all-mountain .mountain p {
