@@ -80,8 +80,5 @@ header {
       width: 350px;
       height: 200px;
       background: wheat;
-      margin: auto; }
-    .content section.all-mountain .mountain img {
-      width: 350px;
-      border-radius: 10%;
-      margin: auto; }
+      margin: auto;
+      border-radius: 20px; }
