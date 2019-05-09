@@ -95,3 +95,9 @@ header {
       text-align: center;
       font-size: 1.2em;
       margin: 0; }
+    .content section.all-mountain .mountain button {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px; }
+    .content section.all-mountain .mountain button:hover {
+      cursor: pointer; }
