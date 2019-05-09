@@ -31,6 +31,11 @@ app.get("/registration", (req, res) => {
   res.render("regis");
 });
 
+//Mountain page
+app.get("/jayawijaya", (req, res) => {
+  res.render("./info/jayawijaya");
+});
+
 //Set server
 app.listen(3000, () => {
   console.log("Server started on port 3000");
