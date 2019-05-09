@@ -85,12 +85,13 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0 3%;
+    // margin: 0 3%;
+    margin: 80px 3% 80px 3%;
     .mountain {
       overflow: hidden;
       width: 30%;
       display: flex;
-      padding: 0 10px 50px 10px;
+      padding: 0 10px 80px 10px;
       flex-direction: column;
       color: #363636;
       .image-border {
@@ -114,12 +115,13 @@ header {
         font-size: 1.2em;
         margin: 0;
       }
-      button {
+      a {
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
+        font-weight: 800;
       }
-      button:hover {
+      a:hover {
         cursor: pointer;
       }
     }
