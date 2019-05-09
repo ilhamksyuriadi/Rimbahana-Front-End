@@ -126,10 +126,13 @@ header {
         padding: 0 15px;
         border-radius: 10px;
         box-shadow: 3px 3px 4px 1px #707070;
+        transition: 0.2s;
         border: none;
       }
       button:hover {
         cursor: pointer;
+        color: #c18e38;
+        background: #363636;
       }
       button:focus {
         outline: none;
