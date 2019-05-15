@@ -11,7 +11,7 @@ header {
   justify-content: space-between;
   padding: 0;
   width: 100%;
-  background-image: linear-gradient(to top, transparent, lightgrey);
+  background-image: linear-gradient(to top, transparent, #3b3b3b);
   color: #d3b178;
   align-items: center; }
   header .logo {
@@ -67,9 +67,15 @@ header {
 .img-1 {
   background: wheat;
   height: 100vh;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
+  .img-1 img {
+    width: 100%; }
 
 .img-2 {
   background: aqua;
   height: 100vh;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
+  .img-2 img {
+    width: 130%; }
