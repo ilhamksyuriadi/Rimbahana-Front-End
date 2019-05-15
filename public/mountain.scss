@@ -77,22 +77,30 @@ header {
   }
 }
 
-.img-1 {
-  background: wheat;
-  height: 100vh;
+.img-1,
+.img-2 {
   position: relative;
-  overflow: hidden;
-  img {
-    width: 100%;
-  }
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.img-1 {
+  background-image: url("/image/information/jayawijaya.jpg");
+  height: 100vh;
 }
 
 .img-2 {
-  background: aqua;
+  background-image: url("/image/information/jayawijaya-2.jpg");
   height: 100vh;
-  position: relative;
-  overflow: hidden;
-  img {
-    width: 130%;
-  }
 }
+
+// .img-2 {
+//   background: aqua;
+//   height: 100vh;
+//   overflow: hidden;
+//   img {
+//     width: 130%;
+//   }
+// }
