@@ -9,12 +9,13 @@ header {
   display: flex;
   position: absolute;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 0;
   width: 100%;
   background-image: linear-gradient(to top, transparent, lightgrey);
   color: #d3b178;
   align-items: center;
   .logo {
+    margin-left: 20px;
     img {
       width: 200px;
     }
@@ -57,7 +58,7 @@ header {
     display: flex;
     align-items: center;
     padding: 0;
-    margin: 0;
+    margin: 0 20px 0 0;
     letter-spacing: 3px;
     i {
       font-size: 1.25em;
