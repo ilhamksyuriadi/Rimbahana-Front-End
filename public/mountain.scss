@@ -7,7 +7,7 @@ body {
 
 header {
   display: flex;
-  position: absolute;
+  position: fixed;
   justify-content: space-between;
   padding: 0;
   width: 100%;
@@ -74,4 +74,14 @@ header {
       outline: none;
     }
   }
+}
+
+.img-1 {
+  background: wheat;
+  height: 100vh;
+}
+
+.img-2 {
+  background: aqua;
+  height: 100vh;
 }
